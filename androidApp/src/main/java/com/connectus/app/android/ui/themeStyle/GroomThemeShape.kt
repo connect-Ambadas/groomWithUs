@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
  * ----------------------------------------------------
  */
 
-object AppShape {
+object GroomThemeShape {
 
     /** No Radius */
     val None = RoundedCornerShape(0.dp)
@@ -48,13 +48,13 @@ object AppShape {
 
 val AppShapes = Shapes(
 
-    extraSmall = AppShape.ExtraSmall,
+    extraSmall = GroomThemeShape.ExtraSmall,
 
-    small = AppShape.Small,
+    small = GroomThemeShape.Small,
 
-    medium = AppShape.Medium,
+    medium = GroomThemeShape.Medium,
 
-    large = AppShape.Large,
+    large = GroomThemeShape.Large,
 
-    extraLarge = AppShape.ExtraLarge
+    extraLarge = GroomThemeShape.ExtraLarge
 )
