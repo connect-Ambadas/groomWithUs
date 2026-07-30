@@ -1,6 +1,5 @@
 package com.connectus.app.android.ui.component
 
-import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -11,11 +10,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.connectus.app.android.ui.themeStyle.ButtonPrimaryBackground
-import com.connectus.app.android.ui.themeStyle.ButtonPrimaryText
+import com.connectus.app.android.ui.themeStyle.GroomThemeColor
 import com.connectus.app.android.ui.themeStyle.GroomThemeDimens
 import com.connectus.app.android.ui.themeStyle.GroomThemeShape
 
@@ -30,9 +29,9 @@ fun GroomButton(
 
     enabled: Boolean = true,
 
-    backgroundColor: Color = ButtonPrimaryBackground,
+    backgroundColor: Color = GroomThemeColor.ButtonPrimaryBackground,
 
-    contentColor: Color = ButtonPrimaryText,
+    contentColor: Color = GroomThemeColor.ButtonPrimaryText,
 
     disabledBackgroundColor: Color = ButtonDefaults.buttonColors().disabledContainerColor,
 
