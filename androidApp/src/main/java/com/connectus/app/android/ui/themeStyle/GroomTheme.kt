@@ -16,32 +16,32 @@ import androidx.compose.ui.platform.LocalContext
  * ----------------------------------------------------
  */
 private val LightColors = lightColorScheme(
-    primary = BrandPrimary,
-    onPrimary = TextOnPrimary,
-    primaryContainer = BrandPrimaryLight,
-    onPrimaryContainer = TextPrimary,
+    primary = GroomThemeColor.BrandPrimary,
+    onPrimary = GroomThemeColor.TextOnPrimary,
+    primaryContainer = GroomThemeColor.BrandPrimaryLight,
+    onPrimaryContainer = GroomThemeColor.TextPrimary,
 
-    secondary = BrandSecondary,
-    onSecondary = TextOnSecondary,
-    secondaryContainer = BrandSecondaryLight,
-    onSecondaryContainer = TextPrimary,
+    secondary = GroomThemeColor.BrandSecondary,
+    onSecondary = GroomThemeColor.TextOnSecondary,
+    secondaryContainer = GroomThemeColor.BrandSecondaryLight,
+    onSecondaryContainer = GroomThemeColor.TextPrimary,
 
-    tertiary = BrandTertiary,
+    tertiary = GroomThemeColor.BrandTertiary,
 
-    background = Background,
-    onBackground = TextPrimary,
+    background = GroomThemeColor.Background,
+    onBackground = GroomThemeColor.TextPrimary,
 
-    surface = Surface,
-    onSurface = TextPrimary,
-    surfaceVariant = SurfaceVariant,
-    onSurfaceVariant = TextSecondary,
+    surface = GroomThemeColor.Surface,
+    onSurface = GroomThemeColor.TextPrimary,
+    surfaceVariant = GroomThemeColor.SurfaceVariant,
+    onSurfaceVariant = GroomThemeColor.TextSecondary,
 
-    error = Error,
-    onError = TextOnError,
-    errorContainer = ErrorContainer,
-    onErrorContainer = Error,
+    error = GroomThemeColor.Error,
+    onError = GroomThemeColor.TextOnError,
+    errorContainer = GroomThemeColor.ErrorContainer,
+    onErrorContainer = GroomThemeColor.Error,
 
-    outline = Border
+    outline = GroomThemeColor.Border
 )
 
 /**
@@ -50,25 +50,25 @@ private val LightColors = lightColorScheme(
  * ----------------------------------------------------
  */
 private val DarkColors = darkColorScheme(
-    primary = DarkButtonPrimary,
-    onPrimary = TextPrimary,
+    primary = GroomThemeColor.DarkButtonPrimary,
+    onPrimary = GroomThemeColor.TextPrimary,
 
-    secondary = BrandSecondaryLight,
-    onSecondary = TextPrimary,
+    secondary = GroomThemeColor.BrandSecondaryLight,
+    onSecondary = GroomThemeColor.TextPrimary,
 
-    background = DarkBackground,
-    onBackground = DarkTextPrimary,
+    background = GroomThemeColor.DarkBackground,
+    onBackground = GroomThemeColor.DarkTextPrimary,
 
-    surface = DarkSurface,
-    onSurface = DarkTextPrimary,
+    surface = GroomThemeColor.DarkSurface,
+    onSurface = GroomThemeColor.DarkTextPrimary,
 
-    surfaceVariant = DarkCard,
-    onSurfaceVariant = DarkTextSecondary,
+    surfaceVariant = GroomThemeColor.DarkCard,
+    onSurfaceVariant = GroomThemeColor.DarkTextSecondary,
 
-    error = Error,
-    onError = TextOnError,
+    error = GroomThemeColor.Error,
+    onError = GroomThemeColor.TextOnError,
 
-    outline = DarkBorder
+    outline = GroomThemeColor.DarkBorder
 )
 
 /**
