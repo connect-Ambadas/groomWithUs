@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
  * Uses an 8dp design grid.
  */
 
-object AppDimens {
+object GroomThemeDimens {
 
     // -------------------------------------------------
     // Spacing
